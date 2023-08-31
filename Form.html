@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <div class="login-card">
+        <h2>Login Page</h2>
+        <form class="login-form" action="/submit" method="post">
+            <label for="Nama">Input Nama Anda :</label><br>
+            <input id="Nama" type="text" placeholder="Nama" required><br>
+            <label for="email">Input Email Anda :</label><br>
+            <input id="email" type="text" placeholder="Email" required><br>
+            <label>Jenis Kelamin :</label><br>
+            <select id="gender">
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select><br>
+            <label for="age">Input Umur Anda :</label><br>
+            <input id="age" type="number" placeholder="Umur" min="10" max="80" required><br>
+            <label for="pass">Password Anda :</label><br>
+            <input id="pass" type="password" placeholder="Password" required><br>
+            <input class="but" type="submit" value="Kirim">
+    </div>
+    </section>
+</body>
+</html>
