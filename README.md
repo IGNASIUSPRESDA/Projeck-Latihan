@@ -1,0 +1,2 @@
+# projeck-latihan
+latihan frontend
